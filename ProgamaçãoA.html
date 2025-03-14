@@ -14,7 +14,7 @@
 
     <header class="topo"> 
         <h3>PROJETO MEDICINE CAR</h3> 
-        <img src="Medicine.png" alt="Fundação Bradesco" />
+        <img src="Medicine.png" alt="image" onclick="openLightbox('Medicine.png')">
     </header>    
 
     <nav class="menunavegação"> 
@@ -30,7 +30,7 @@
     <main class="grupomaior">
         <section class="box"> 
             <h1>Programação Usada no Arduino</h1>
-            <p>A programação do Arduino foi realizada para garantir o controle e a interação com os componentes do carrinho. Através de sensores e comandos de motor, ele realizará o transporte do lixo hospitalar de maneira automatizada. O código foi desenvolvido com base nas necessidades do projeto, utilizando a plataforma Arduino IDE.</p>
+            <p>A programação do Arduino foi desenvolvida para controlar e integrar os componentes do carrinho de forma eficiente. Com a utilização de sensores e comandos de motor, o sistema automatiza o transporte do lixo hospitalar, garantindo segurança e precisão no manuseio dos resíduos. O código foi elaborado especificamente para atender às demandas do projeto, utilizando a plataforma Arduino IDE para implementar soluções customizadas e confiáveis.</p>
         </section>
 
         <section class="pdf"> 
@@ -38,6 +38,11 @@
             <embed src="Progamação.pdf" type="application/pdf" width="1000" height="600">
         </section>
     </main>
+
+    <div class="lightbox" id="lightbox" onclick="closeLightbox()">
+        <span class="close">&times;</span>
+        <img id="lightbox-img" src="" alt="Imagem ampliada">
+    </div>
 
     <footer>
         <p>&copy; 2024 Meu Site. Todos os direitos reservados.</p>

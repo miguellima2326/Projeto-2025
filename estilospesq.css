@@ -38,6 +38,7 @@ body {
     border-radius: 20%;
     box-shadow: 0 5px 15px rgb(31, 30, 30); 
     transition: transform 0.3s ease;
+    cursor: pointer;
 }
 
 .topo img:hover {
@@ -92,7 +93,11 @@ body {
     transition: all 0.3s ease;
 }
 
-.conteúdo:hover, .caracteristicas:hover, .fotos:hover, .integrantes:hover, .formulario:hover, .pdf:hover, .box:hover {
+footer {
+    transition: all 0.8s ease;
+}
+
+.conteúdo:hover, .caracteristicas:hover, .fotos:hover, .integrantes:hover, .formulario:hover, .pdf:hover, .box:hover, footer:hover {
     transform: translateY(-5px);
 }
 
@@ -475,3 +480,54 @@ footer {
     font-family: 'Roboto','sans-serif';
     border: 2px;
 }
+
+.novidades {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #d1c9c9;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  .novidades h3 {
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+    color: #333;
+  }
+
+  .opcoes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .btn {
+    padding: 10px 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn.sim {
+    background-color: #4CAF50;
+    color: #fff;
+  }
+  
+  .btn.sim:hover {
+    background-color: #45a049;
+  }
+  
+  .btn.nao {
+    background-color: #F44336;
+    color: #fff;
+  }
+  
+  .btn.nao:hover {
+    background-color: #e53935;
+  }
+  

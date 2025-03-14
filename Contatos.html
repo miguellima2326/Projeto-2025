@@ -15,7 +15,7 @@
 
     <header class="topo">
         <h3>PROJETO MEDICINE CAR</h3>
-        <img src="Medicine.png" alt="Fundação Bradesco" />
+        <img src="Medicine.png" alt="image" onclick="openLightbox('Medicine.png')">
     </header>    
 
     <nav class="menunavegação"> 
@@ -31,7 +31,7 @@
     <main class="grupomaior">
         <section class="box">
             <h1>Fale Conosco</h1>
-            <p>Nos envie suas dúvidas, sugestões ou qualquer feedback sobre nosso projeto. Sua opinião é muito importante para nós!</p>
+            <p>Envie suas dúvidas, sugestões ou qualquer feedback sobre o nosso projeto. Sua opinião é essencial para o aprimoramento contínuo do nosso trabalho!</p>
         </section>
 
         <section class="formulario">
@@ -55,14 +55,15 @@
                 <label for="Problemas">Teve algum Problema Com o Site?</label>
                 <input type="text" id="Problemas" name="Problemas" placeholder="Relate algum problema" required>
                    
-                <div class="text">
-                <label for="Novidades">Deseja receber nossas novidades?</label>
-                <input type="radio" id="Sim" name="Escolha" value="Sim">
-                <label for="Sim">Sim</label>
-                <input type="radio" id="Não" name="Escolha" value="Não">
-                <label for="Não">Não</label>
-                
-                </div>
+               
+                    <section class="novidades">
+                            <h3>Deseja receber nossas novidades?</h3>
+                        <div class="opcoes">
+                            <button class="btn sim">Sim</button>
+                            <button class="btn nao">Não</button>
+                        </div>
+                    </section>
+  
 
                 
                 <label for="Melhorias">No que podemos melhorar:</label>
@@ -76,6 +77,11 @@
             
         </section>
     </main>
+
+    <div class="lightbox" id="lightbox" onclick="closeLightbox()">
+        <span class="close">&times;</span>
+        <img id="lightbox-img" src="" alt="Imagem ampliada">
+    </div>
 
     <footer>
         <p>&copy; 2024 Meu Site. Todos os direitos reservados.</p>
