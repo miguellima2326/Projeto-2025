@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medicine Car</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="icon" type="image/png" href="Medicine.png"/>
+    <link rel="stylesheet" href="estilospesq.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <header class="topo"> 
+        <h3>PROJETO MEDICINE CAR</h3>
+        <img src="Medicine.png" alt="image"  />
+    </header>    
+
+    <nav class="menunavegação"> 
+        <ul>
+            <li><a href="indexforms.html">Características</a></li>
+            <li><a href="Desenvolvimento.html">Desenvolvimento</a></li>
+            <li><a href="ProgamaçãoA.html">Programação Arduino</a></li>
+            <li><a href="Sobre Nós.html">Sobre Nós</a></li>
+            <li><a href="Contatos.html">Fale Conosco</a></li>
+        </ul>
+    </nav>
+
+    <main class="grupomaior">
+        <section class="box"> 
+            <h1>Oque é o nosso Projeto?</h1>
+            <p>Nosso projeto tem como objetivo principal otimizar o processo de transporte de lixo hospitalar, buscando soluções eficientes para garantir o descarte correto e seguro de resíduos de saúde. A proposta visa não apenas atender às exigências legais e ambientais, mas também oferecer mais praticidade e segurança para os profissionais da saúde, que lidam diariamente com esses materiais de risco. Com um design focado na funcionalidade e na sustentabilidade, nosso sistema facilita o manuseio do lixo hospitalar, minimizando riscos de contaminação e promovendo um ambiente mais seguro para todos. Além disso, buscamos reduzir os custos operacionais e melhorar a logística do descarte, contribuindo para a eficiência do gerenciamento de resíduos dentro das instituições de saúde.</p>
+        </section>
+
+        <section class="box"> 
+            <h1>Curiosidades</h1>
+            <p>Para o funcionamento do carrinho, será usado Arduino, quatro rodas, dois motores (um em cada eixo). O carrinho receberá um alerta do aplicativo, orientando-o até o local destinado.</p>
+        </section>
+
+        <section class="fotos"> 
+            <h1>Projeto em Desenvolvimento</h1>
+            <ul>
+                <li onclick="openLightbox('Carrinho1.jpg')">
+                    <img src="Carrinho1.jpg" alt="Carrinho Papelão">
+                    <figcaption>Projeto da Maquete</figcaption>
+                </li>
+                <li onclick="openLightbox('Carrinho2.jpg')">
+                    <img src="Carrinho2.jpg" alt="Carrinho Arduino">
+                    <figcaption>Carrinho em Testes</figcaption>
+                </li>
+                <li onclick="openLightbox('Carrinho3.jpg')">
+                    <img src="Carrinho3.jpg" alt="Carrinho Arduino">
+                    <figcaption>Carrinho de Arduino</figcaption>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <div class="lightbox" id="lightbox" onclick="closeLightbox()">
+        <span class="close">&times;</span>
+        <img id="lightbox-img" src="" alt="Imagem ampliada">
+    </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Meu Site. Todos os direitos reservados.</p>
+    </footer>
+
+
+</body>
+</html>

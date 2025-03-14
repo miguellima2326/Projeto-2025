@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<!-- Feito por Miguel Plino, 31 1-b -->
+<head>
+    <meta charset="utf-8">
+	<title>Medicine Car</title>
+	
+	  <link rel="stylesheet" href="estilospesq.css" type="text/css" media="screen">
+	  <link rel="icon" type="imagem/png" href="Medicine.png"/>
+	 
+</head>
+
+<body>
+
+    <div class="topo"> 
+		PESQ-Projeto Entre Séries da Qualificação 
+		 <img  align="right" src="fb2.png" alt="image fundação bradesco" width="50" heigth="70">
+	</div>
+
+      <div class=grupomaior>	
+
+	<div class="menunavegação"> 
+	<table> 
+	
+        <tr> <td><a href="grupo2.html">Caracteristicas</a></td></tr>
+		<tr> <td><a href="ProgamaçãoA.html">Progamação Arduino</a></td></tr>
+		<tr> <td><a href="Sobre Nós.html">Sobre Nós</a></td></tr>
+        <tr> <td><a href="Contatos.html">Contatos</a></td></tr>
+    
+	</table>
+	
+	</div>
+	<div class="conteúdo"> 
+	<font color="#FF0000"><h1>Sobre o Projeto</h1></font color>
+	<font color="#000000"><p> Nosso projeto tem finalidade para o transporte de Lixo Hospitalar, ajudando no descarte da maneira correta e visando mais praticidade para os profissionais</p></font color>
+    </div>
+	
+	<div class="curiosidades"> 
+	<font color="#F00000"><h1>Curiosidades</h1></font color>
+	<font color="#000000"><p> Para o funcionamento do carrinho sera usado Arduino, Quatro rodas , Dois motores "Um em cada eixo". Para o acionamento o carrinho vai receber um alerta do aplicativo que vai ser feita por um profissional que vai o orientar para o local destinado </p><font color>
+    </div>
+	
+    </div>
+		<div class="fotos"> 
+		<font color="#FF0000"><center><h1>Projeto em Desenvolvimento</h1></center></font color>
+	
+	    
+        <figure class="foto-legenda">	
+		<ul>
+	        <li>
+			    <!-- Imagens Direta na Pasta Raiz -->
+		        <img src="Carrinho1.jpg" width="250" height="250" alt="Carrinho Papelão">
+				<figcaption>Projeto da Maquete</figcaption>
+		    </li>
+			<li>
+			    <img src="Carrinho2.jpg" width="250" height="250" alt="Carrinho Arduino">
+			</li>
+			<li>
+			   <img src="Carrinho3.jpg" width="250" height="250" alt="Carrinho Arduino" >
+			   <figcaption>Carrinho de Arduino</figcaption>
+			</li>
+		</ul>
+	    </div>
+	<br>
+	<br>
+	<br>
+	<div class="rodapé">
+	<font size="2px">
+	<font color="#000000"><center><p> &copy;Todos os Direitos reservados aos integrantes do Grupo 2</p></center>
+	</font size>
+    </div>
+   
+	
+</body>
+
+</html>
+

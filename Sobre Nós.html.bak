@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<!-- Feito por Miguel Plino, 31 1-b -->
+<head>
+    <meta charset="utf-8">
+	<title>Sobre Nós</title>
+	
+	  <link rel="stylesheet" href="estilospesq.css" type="text/css" media="screen">
+	  <link rel="icon" type="imagem/png" href="Medicine.png"/>
+	 
+</head>
+
+<body>
+
+    <div class="topo"> 
+		PESQ-Projeto Entre Séries da Qualificação 
+		 <img  align="right" src="fb2.png" alt="image fundação bradesco" width="50" heigth="70">
+	</div>
+	
+	<div class="fotos2"> 
+	<font color="#FF0000"><center><h1>Sobre o Grupo</h1></center></font color>
+	<font color="#000000"><p>Durante nosso processo no CARRINHO AVG, fomos os primeiros alunos a serem “testados” nesse novo Ensino Médio, nunca tivemos os estudantes do segundo grau unidos em prol de um projeto grande como esse. Sentimos que o nosso grupo possui personalidades distintas e que durante todo o processo tivemos muitos altos e baixos, discussões e afins, fomos divididos em grupos e sub grupos, cada sub grupo tinha um trabalho (Maquete, Progamação e Documentação) para que assim ninguem fique sobrecarregado com tarefas. Diante todos esses aflitos entre o grupo conseguimos finalizar a proposta do projeto.</p></font size>
+	
+	</div>
+	
+	<div class="fotos2">
+	<font color="#FF0000"><center><h1>Integrantes</h1></center></font color>
+	<ol>
+	<font color="#000000">
+	<li>Miguel</li>
+	<li>Gustavo F.</li>
+	<li>Maria</li>
+	<li>Liz</li>
+	<li>Micael</li>
+	<li>Bianca</li>
+	<li>Brenda</li>
+	<li>Pedro</li>
+	<li>Gustavo</li>
+	<li>Vitor</li>
+	
+	

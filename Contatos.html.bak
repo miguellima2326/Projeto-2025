@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<!-- Feito por Miguel Plino, 31 1-b -->
+<head>
+    <meta charset="utf-8">
+	<title>Contatos</title>
+	
+	  <link rel="stylesheet" href="estilospesq.css" type="text/css" media="screen">
+	  <link rel="icon" type="imagem/png" href="fb2.png"/>
+	 
+</head>
+
+<body>
+
+    <div class="topo"> 
+		PESQ-Projeto Entre Séries da Qualificação 
+		 <img  align="right" src="fb2.png" alt="image fundação bradesco" width="50" heigth="70">
+	</div>
+
+    <div class="fotos5"> 
+	<font color="#FF0000"><center><h1>Contatos</h1></center></font color>
+	
+	<div class="field">
+            <label for="nome">Seu Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu Nome Completo">
+        </div>
+
+        <div class="field">
+            <label for="telefone">Seu Telefone:</label>
+			<input type="text" id="telefone" name="telefone" placeholder="Digite seu Telefone">
+		</div>
+
+        <div class="field">
+            <label for="email">Seu E-Mail:</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu E-Mail" required>			
+        </div>
+		<div class="field">
+		    <label for="cpf">Oque Você Achou do Nosso Projeto:</label>
+			<input type="text" id="cpf" name="cpf" placeholder="Escreva sua experiencia" required>
+		</div>
+		<div class="field">
+		    <label for="cartao">No Que Podemos Melhorar:</label>
+			<input type="text" id="Duvidas" name="Duvidas" placeholder=" Deixe sua opnião aqui" required>
+		</div>
+		<div class="field">
+		    <label for="Senha do cartao">Teve algum Problemas Com o Site:</label>
+			<input type="text" id="Duvidas" name="Duvidas" placeholder=" Digite aqui" required>
+		</div>
+		
+		<div class="field radiobox">
+		    <span>Deseja receber nossas novidades?</span>
+			<input type="radio" name="novidades" id="sim" value="sim" checked><label for="sim">Sim</label>
+			<input type="radio" name="novidades" id="nao" value="nao"><label for="nao">Não</label>
+		</div>
+        <div class="field">
+		    <label for="mensagem">Duvidas</label>
+			<textarea name="Saldo" id="saldo" placeholder="Deixe sua Duvidas Sobre Nosso Projeto" required></textarea>
+		</div>
+		
+		</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="rodapé">
+	<font size="2px">
+	<font color="#000000"><center><p> &copy;Todos os Direitos reservados aos integrantes do Grupo 2</p></center>
+	</font size>
+    </div>

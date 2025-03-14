@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<!-- Feito Por Miguel Plinio, 31 1-B -->
+<head> 
+    <meta charset="utf-8">
+	<title>Descrição Sobre O Carrinho</title>
+	
+	  <link rel="stylesheet" href="estilospesq.css" type="text/css" media="screen">
+	  <link rel="icon" type="imagem/png" href="Medicine.png"/>
+	 
+</head>
+
+<body background="">
+
+    <div class="topo"> 
+		PESQ-Projeto Entre Séries da Qualificação 
+		 <img  align="right" src="fb2.png" alt="imagem fundação bradesco" width="50" heigth="70">
+	</div>
+	<div class=grupomaior>	
+	
+	</div>
+	<div class="conteúdo2">
+    <figure class="foto-legenda2">	
+	<!-- Classe Numerada Para Alterações Individuais -->
+	<img src="Medicine.png" width="125" height="125" align="right">
+	<font color="#1C1C1C"><h1>Descrição Sobre O Carrinho</h1></font color>
+	<font color="#000000">
+	<li>Tema do Carrinho: Transporte de lixo hospitalar</li>
+    <li>Objetivo: Descarte de maneira correta nos hospitais,e mais prático para os mesmos</li>
+    <li>Público Alvo: Profissionais da saúde</li>
+	</font color>
+	<!-- Classe Numerada Para Alterações Individuais -->
+    </div>
+	
+	<div class="curiosidades2">
+	<!-- Classe Numerada Para Alterações Individuais -->
+	<font color="#1C1C1C"><h1>Características</h1></font color>
+	<font color="#000000">
+	<figure class="foto-legenda">
+	<img align="right" src="chassi.webp" width="250" height="250">
+	<li>Quatro Rodas,sensor de Proximidade</li>
+	<li>Dois Motores um em cada roda</li>
+	<li>Bluetooth HC-05</li>
+	<li>Bateria 9V Alcalina</li>
+	<li>Conector de Bateria 9V para P4</li>
+	<li>Pilha AA 1,5V - Kit com 4 unidades</li>
+	<li>Carrinho Arduino / Carro Robô 2WD 200RPM MDF - Kit Chassi Usinainfo</li>
+	<!-- Classe Numerada Para Alterações Individuais -->
+    </div>
+	
+		<div class="fotos2"> 
+	<!-- Classe Numerada Para Alterações Individuais -->
+		<font color="#1C1C1C"><h1>Funções do Carrinho</h1></font color>
+		<font color="#000000">
+		<li>Acionamento: O carrinho vai receber um alerta do aplicativo que vai ser feita por um profissional que vai o orientar para o local destinado</li>
+        <li>Deslocamento: Após a solicitação, a máquina vai se deslocar ao destino e chegando lá o automóvel vai aguardar o indivíduo colocar o (s) objeto (s)</li>
+        <li>Á Caminho: Em seguida, quando todos os objetos estiverem no seu devido lugar de modo correto, o profissional vai dar a autorização para o carrinho partir</li> 
+        <li>Descarregar: Sem demora, o automóvel vai se deslocar ao local apropriado e vai fazer o descarregamento do detrito no local correto</li>
+		<!-- Classe Numerada Para Alterações Individuais -->
+
+    </div>
+ 
+        <figure class="foto-legenda">
+	<!-- Classe Numerada Para Alterações Individuais -->
+		<div class="fotos3"> 
+		<font color="#1C1C1C"><center> <h1>Desenvolvimento</h1></font color> </center>
+		<font color="#000000">
+		<ul>
+		
+		<li>
+		
+		 <img src="carrinhoA.jpg" width="300" height="300">
+		 <figcaption> Grupo Da Progamação </figcaption>
+		
+		  </li>
+		
+        <li>
+		 
+		 <img src="carrinhoArduino.jpg"= width="300" height="300">
+		
+		  </li>
+		
+		<li>
+		
+        <img src="Maquete.jpg" width="300" height="300">
+		<figcaption>Grupo Da Maquete</figcaption>
+		
+		  </li>
+		
+		
+		</ul>
+
+		</div>
+		<div class="fotos4">
+	<!-- Classe Numerada para Alterações Individuais -->
+		<br>
+		<br>
+		<ul>
+		
+		<li>
+		
+		<img src="App.jpg" width="300" height="300">
+		<figcaption> Layout do Aplicativo  </figcaption>
+		</li>
+		
+		<li>
+		<img src="Progamaçao.jpg" width="300" height="300">
+		</li>
+		
+		<li>
+		<img src="Divisoria.jpg" width="300" height="300">
+		<figcaption> Exemplo das Divisorias do Carrinho </figcaption>
+		</li>
+
+		</div>
+		
+		<div class="fotos4">
+		<ul>
+		<li><img src="Dono do site.jpg" width="300" height="400"></li>
+		<li><img src="Fotografo.jpg" width="300" height="300"></li>
+		</div>
+
+		
+	<div class="rodapé">
+	<font size="2px">
+	<font color="#000000"><center><p> &copy;Todos os Direitos reservados aos integrantes do Grupo 2</p></center>
+    </font size>
+	</div>
+   
+	
+</body>
+</html>

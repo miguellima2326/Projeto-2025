@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medicine Car - Desenvolvimento</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="icon" type="image/png" href="Medicine.png"/>
+    <link rel="stylesheet" href="estilospesq.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <header class="topo"> 
+        <h3>PROJETO MEDICINE CAR</h3> 
+        <img src="Medicine.png" alt="Fundação Bradesco" />
+    </header>    
+
+    <nav class="menunavegação"> 
+        <ul>
+            <li><a href="indexforms.html" title="Home">Home</a></li>
+            <li><a href="grupo2.html" title="Características">Características</a></li>
+            <li><a href="ProgamaçãoA.html" title="Progamação Arduino">Programação Arduino</a></li>
+            <li><a href="Sobre Nós.html" title="Sobre Nós">Sobre Nós</a></li>
+            <li><a href="Contatos.html" title="Contatos">Fale Conosco</a></li>
+        </ul>
+    </nav>
+
+    <main class="grupomaior">
+        <section class="box"> 
+            <h1>Desenvolvimento</h1>
+                 <p>O desenvolvimento do nosso projeto abrange várias etapas, desde a concepção da maquete até a implementação da programação e a criação do layout do aplicativo. Neste espaço, você pode acompanhar o progresso de cada uma dessas fases, visualizando imagens e descrições detalhadas sobre o que já foi realizado e o que está por vir. A programação, utilizando a plataforma Arduino, já está em fase avançada, com a configuração dos motores e sensores sendo testados para garantir o bom funcionamento do carrinho. A maquete do projeto também está quase pronta, sendo ajustada para representar fielmente o design do produto final. Além disso, o layout do aplicativo que controlará o carrinho está em desenvolvimento, visando uma interface amigável e eficiente para os usuários. Acompanhe as imagens abaixo para ver o progresso do nosso trabalho!</p>
+
+
+        <section class="fotos"> 
+            <h1>Imagens do Projeto</h1>
+            <ul>
+                <li onclick="openLightbox('carrinhoA.jpg')">
+                    <img src="carrinhoA.jpg" alt="Grupo Da Programação">
+                    <figcaption>Grupo Da Programação</figcaption>
+                </li>
+                <li onclick="openLightbox('carrinhoArduino.jpg')">
+                    <img src="carrinhoArduino.jpg" alt="Carrinho Arduino">
+                </li>
+                <li onclick="openLightbox('Maquete.jpg')">
+                    <img src="Maquete.jpg" alt="Grupo Da Maquete">
+                    <figcaption>Grupo Da Maquete</figcaption>
+                </li>
+            </ul>
+        </section>
+
+        <section class="fotos"> 
+            <ul>
+                <li onclick="openLightbox('App.jpg')">
+                    <img src="App.jpg" alt="Layout do Aplicativo">
+                    <figcaption>Layout do Aplicativo</figcaption>
+                </li>
+                
+                <li onclick="openLightbox('Divisoria.jpg')">
+                    <img src="Divisoria.jpg" alt="Exemplo das Divisórias do Carrinho">
+                    <figcaption>Exemplo das Divisórias do Carrinho</figcaption>
+                </li>
+            </ul>
+        </section>
+
+        <section class="fotos">
+            <ul>
+                <li onclick="openLightbox('Dono do site.jpg')">
+                    <img src="Dono do site.jpg" alt="Dono do site">
+                </li>
+                <li onclick="openLightbox('Fotografo.jpg')">
+                    <img src="Fotografo.jpg" alt="Fotógrafo">
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <div class="lightbox" id="lightbox" onclick="closeLightbox()">
+        <span class="close">&times;</span>
+        <img id="lightbox-img" src="" alt="Imagem ampliada">
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Meu Projeto. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>

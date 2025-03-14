@@ -1,0 +1,264 @@
+/* Feito Por Miguel Plinio, 31 1-B */
+
+body  {
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center center;
+}
+
+.topo {
+            border: 1px solid #000;
+			padding: 30px;
+			border-radius: 5px;
+			background-color: #eee; 
+			font-family: monospace;
+			font-size: 24px;
+			color: red;
+	  }
+
+.grupomaior { 
+	display: flex;
+            } 
+.menunavegação
+			{
+			background-color: #EEE;
+            width: auto;
+            color: gray;
+            height: 200px;
+            margin: 20px auto;
+            padding-left:20px;
+			padding-right:20px;
+            padding-top:10px;
+			border: 1px solid #000;
+			border-radius: 20px;		
+			}
+			
+.conteúdo
+		{
+			background-color: #C0C0C0;
+            width: 720px;
+            color: gray;
+            height: 200px;
+            margin: 20px auto;
+            padding-left:20px;
+            padding-top:10px;
+			border: 1px solid #000;
+			border-radius: 20px;
+		}
+.conteúdo2
+		{
+			background-color: #C0C0C0;
+            width: auto;
+            color: gray;
+            height: 200px;
+            margin: 20px auto;
+            padding-left:20px;
+            padding-top:10px;
+			border: 1px solid #000;
+			border-radius: 20px;
+		}
+.curiosidades
+		{
+			background-color: #C0C0C0;
+            width: 720px;
+            color: gray;
+            height: 200px;
+            margin: 20px auto;
+            padding-left:20px;
+            padding-top:10px;
+			border: 1px solid #000;
+			border-radius: 20px;
+		}
+.curiosidades2
+		{
+			background-color: #C0C0C0;
+            width: auto;
+            color: gray;
+            height: 350px;
+            margin: 20px auto;
+            padding-left:20px;
+            padding-top:10px;
+			border: 1px solid #000;
+			border-radius: 20px;
+		}
+			
+.fotos
+		{
+			background-color: #C0C0C0;
+            width: auto;
+            color: gray;
+            height: 400px;
+            margin: 20px auto;
+            padding-left:20px;
+            padding-top:10px;
+			border: 1px solid #000;
+			border-radius: 20px;
+	    }
+			
+.fotos2
+		{
+			background-color: #C0C0C0;
+            width: auto;
+            color: gray;
+            height: 300px;
+            margin: 40px auto;
+            padding-left:20px;
+            padding-top: 20px;
+			border: 1px solid #000;
+			border-radius: 20px;
+		}
+
+.fotos3
+		{
+			background-color: #C0C0C0;
+            width: auto;
+            color: gray;
+            height: 500px;
+            margin: 20px auto;
+            padding-left:20px;
+            padding-top: 10px;
+			border: 1px solid #000;
+			border-radius: 20px;
+		}
+		
+.fotos4
+		{
+			background-color: #C0C0C0;
+            width: auto;
+            color: gray;
+            height: 500px;
+            margin: 20px auto;
+            padding-left:20px;
+            padding-top: 10px;
+			border: 1px solid #000;
+			border-radius: 20px;
+		}
+		
+.fotos5
+		{
+			background-color: #C0C0C0;
+            width: auto;
+            color: gray;
+            height: 700px;
+            margin: 20px auto;
+            padding-left:20px;
+            padding-top: 10px;
+			border: 1px solid #000;
+			border-radius: 20px;
+		}
+			
+.rodapé
+		{
+	        background-color: #DC143C;
+            width: 50%;
+            color: gray;
+            height: 30px;
+            margin: 40px auto;
+            padding-left:20px;
+            padding-top: 10px;
+			border: 1px solid #000;
+			border-radius: 15px;
+		}
+		
+figcaption
+        {
+		
+		font-size:20px;
+		color: #000000;
+		font-family:Andale Mono, monospace;
+		}
+
+p       
+        {
+		    font-family:Blippo, fantasy;
+			
+		}
+		
+ul 
+        {
+		    list-style: none;
+            display: flex;
+            justify-content: space-around;
+        			
+	    }
+
+li      
+        {  
+			font-family:Blippo, fantasy;
+		}
+table    
+        {
+			color="#000000"
+		}
+		 
+figure.foto-legenda img {  /* Linkada para todas as tags img */
+    border: 5px solid #4F4F4F;
+	border-radius: 10px;
+}
+		
+figure.foto-legenda2 img {  /* Linkada para todas as tags img */
+    border: 5px solid #4F4F4F;
+	border-radius: 100px;
+}	
+
+.formulario{
+	width: 400px;
+	padding: 30px;
+	border:1px solid #000000;
+}
+.formulario p{
+	witdh: 100%;
+	font-size: 1.5em;
+	color: #dcdcdc;
+}
+.field{
+	witdh: 70%;
+	margin: 15px 0;
+	color: #dcdcdc;
+}
+.field label,
+.field span{
+	padding-left: 10px;
+	font-size: 1.1em;
+	display: block;
+	width: 70%;
+	color: #dcdcdc;
+}
+
+.radiobox label{
+	width: auto;
+	display: inline-block;
+	color: #dcdcdc;
+}
+input[type=text],
+input[type=email],
+textarea{
+	width: 70%;
+	padding-left: 10px;
+    height: 30px;
+	line-height: 30px;
+	border-radius: 15px;
+	border: 1px solid #ccc;
+	outline: none;
+}
+input#nao{
+	margin-left: 30px;
+}
+textarea{
+	line-height: 20px;
+	padding: 10px;
+	height: 50px;
+	resize: none;
+}
+input[type=submit]{
+	display: block;
+	background-color: #ccc;
+	height: 35px;
+	border: none;
+	outline: 0;
+	cursor: pointer;
+	width: 50px;
+	margin: 0 auto;
+	text-align: center;
+	border-radius: 15px;
+}	

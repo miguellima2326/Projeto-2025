@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fale Conosco</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="icon" type="image/png" href="Medicine.png"/>
+    <link rel="stylesheet" href="estilospesq.css">
+    <script src="script.js"></script>
+    
+</head>
+
+<body>
+
+    <header class="topo">
+        <h3>PROJETO MEDICINE CAR</h3>
+        <img src="Medicine.png" alt="Fundação Bradesco" />
+    </header>    
+
+    <nav class="menunavegação"> 
+        <ul>
+            <li><a href="grupo2.html">Home</a></li>
+            <li><a href="indexforms.html">Características</a></li>
+            <li><a href="Desenvolvimento.html">Desenvolvimento</a></li>
+            <li><a href="ProgamaçãoA.html">Programação Arduino</a></li>
+            <li><a href="Sobre Nós.html">Sobre Nós</a></li>
+        </ul>
+    </nav>
+
+    <main class="grupomaior">
+        <section class="box">
+            <h1>Fale Conosco</h1>
+            <p>Nos envie suas dúvidas, sugestões ou qualquer feedback sobre nosso projeto. Sua opinião é muito importante para nós!</p>
+        </section>
+
+        <section class="formulario">
+            <h1>Formulário de Contato</h1>
+            <form action="https://api.sheetmonkey.io/form/nS4RKFAoU5j6VpBgTVpcvK" method="post">
+                <label for="Nome">Seu Nome:</label>
+                <input type="text" id="Nome" name="Nome" placeholder="Digite seu nome completo" required>
+
+                <label for="Telefone">Seu Telefone:</label>
+                <input type="text" id="Telefone" name="Telefone" placeholder="Digite seu telefone" required>
+
+                <label for="Email">Seu E-Mail:</label>
+                <input type="email" id="Email" name="Email" placeholder="Digite seu E-Mail" required>
+
+                <label for="Projeto">O que Você Achou do Nosso Projeto?</label>
+                <input type="text" id="Projeto" name="Projeto" placeholder="Escreva sua opinião" required>
+
+                <label for="Duvidas">Teve Dúvidas Sobre o Projeto?</label>
+                <input type="text" id="Duvidas" name="Duvidas" placeholder="Nos conte suas dúvidas" required>
+
+                <label for="Problemas">Teve algum Problema Com o Site?</label>
+                <input type="text" id="Problemas" name="Problemas" placeholder="Relate algum problema" required>
+                   
+                <div class="text">
+                <label for="Novidades">Deseja receber nossas novidades?</label>
+                <input type="radio" id="Sim" name="Escolha" value="Sim">
+                <label for="Sim">Sim</label>
+                <input type="radio" id="Não" name="Escolha" value="Não">
+                <label for="Não">Não</label>
+                
+                </div>
+
+                
+                <label for="Melhorias">No que podemos melhorar:</label>
+                <textarea name="Melhorias" id="Melhorias" placeholder="Nos diga como podemos melhorar" required></textarea>
+
+                <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+                <input type="submit" value="Enviar">
+            </form>
+            
+
+            
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Meu Site. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
+
+

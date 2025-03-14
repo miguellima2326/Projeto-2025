@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descrição Sobre O Carrinho</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="icon" type="image/png" href="Medicine.png"/>
+    <link rel="stylesheet" href="estilospesq.css">
+    <script src="script.js" ></script>
+
+</head>
+
+<body>
+
+    <header class="topo"> 
+      <h3>PROJETO MEDICINE CAR</h3>
+        <img src="Medicine.png" alt="Fundação Bradesco" />
+    </header>    
+
+    <nav class="menunavegação"> 
+        <ul>
+            <li><a href="grupo2.html">Home</a></li>
+            <li><a href="Desenvolvimento.html">Desenvolvimento</a></li>
+            <li><a href="ProgamaçãoA.html">Programação Arduino</a></li>
+            <li><a href="Sobre Nós.html">Sobre Nós</a></li>
+            <li><a href="Contatos.html">Fale Conosco</a></li>
+        </ul>
+    </nav>
+
+    <main class="grupomaior">
+        <section class="box"> 
+            <h1>Descrição Sobre O Carrinho:</h1>
+            <p><b>TEMA DO CARRINHO:</b> Transporte de lixo hospitalar</p>
+            <p><b>OBJETIVO:</b> Garantir o descarte adequado e seguro de resíduos hospitalares, facilitando o trabalho dos profissionais da saúde. O carrinho foi projetado para oferecer praticidade, segurança e eficiência no manejo de materiais contaminantes, contribuindo para um ambiente hospitalar mais limpo e organizado.</p>
+            <p><b>PÚBLICO-ALVO:</b> Profissionais da saúde, especialmente aqueles que lidam diretamente com o descarte de resíduos em hospitais e clínicas, como enfermeiros, técnicos de enfermagem e auxiliares de limpeza.</p>
+        </section>
+
+        <section class="box"> 
+            <h1>Características:</h1>
+            <h2>Descrição do Carrinho:</h2>
+            <p>O carrinho é projetado para o transporte seguro e eficiente de lixo hospitalar, contando com as seguintes especificações técnicas:</p>
+            <ul>
+                <li><strong>Quatro rodas</strong> para maior estabilidade e mobilidade.</li>
+                <li><strong>Sensor de proximidade</strong> para garantir segurança e evitar colisões durante o movimento.</li>
+                <li><strong>Dois motores</strong> (um em cada roda) proporcionando tração e controle precisos para fácil manuseio.</li>
+                <li><strong>Conexão Bluetooth HC-05</strong> permitindo controle remoto e integração com sistemas automatizados.</li>
+                <li><strong>Bateria 9V Alcalina</strong> garantindo autonomia para longas operações.</li>
+                <li><strong>Conector de Bateria 9V para P4</strong> facilitando a conexão e troca da bateria.</li>
+                <li><strong>Pilha AA 1,5V (Kit com 4 unidades)</strong> fornecendo energia adicional para componentes auxiliares.</li>
+            </ul>
+            <p>Este design visa não apenas praticidade, mas também a funcionalidade e a segurança no ambiente hospitalar, tornando o descarte de lixo hospitalar mais eficiente e com menor risco para os profissionais de saúde.</p>
+        </section>
+
+        <section class="fotos"> 
+            <h1>Funções do Carrinho:</h1>
+            <ul>
+                <li onclick="openLightbox('Medicine.png')">
+                    <img src="Medicine.png" alt="Carrinho de Lixo Hospitalar">
+                    <figcaption>Acionamento: O carrinho recebe um alerta do aplicativo que o orienta para o local desejado.</figcaption>
+                </li>
+                <li onclick="openLightbox('chassi.webp')">
+                    <img src="chassi.webp" alt="Chassi do Carrinho">
+                    <figcaption>Deslocamento: O carrinho vai até o destino e aguarda o profissional colocar os objetos.</figcaption>
+                </li>
+                <li onclick="openLightbox('Carrinho2.jpg')">
+                    <img src="Carrinho2.jpg" alt="Carrinho de Arduino">
+                    <figcaption>Descarregar: O carrinho realiza o descarregamento do lixo no local correto.</figcaption>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <div class="lightbox" id="lightbox" onclick="closeLightbox()">
+        <span class="close">&times;</span>
+        <img id="lightbox-img" src="" alt="Imagem ampliada">
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Meu Projeto. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>

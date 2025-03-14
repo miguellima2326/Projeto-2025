@@ -1,0 +1,477 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    background-image: linear-gradient(120deg, #e6f0f2, #d1e7f0);
+}
+
+.topo {
+    background: linear-gradient(160deg, #c86363, #C87474, #d19393 ); 
+    color: white;
+    padding: 30px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); 
+    border-bottom: 5px solid #fff; 
+    border-radius: 10px;
+    transition: all 0.3s ease; 
+    
+}
+
+.topo:hover {
+    transform: translateY(-5px);
+}
+
+.topo img {
+    width: 90px;
+    height: 90px;
+    border-radius: 20%;
+    box-shadow: 0 5px 15px rgb(31, 30, 30); 
+    transition: transform 0.3s ease;
+}
+
+.topo img:hover {
+    transform: scale(1.1); 
+}
+
+.menunavegação {
+    background-color: #2c3e50;
+    padding: 10px 0;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+.menunavegação ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.menunavegação ul li {
+    margin: 0 20px;
+}
+
+.menunavegação ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+    padding: 12px 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    display: block;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.menunavegação ul li a:hover {
+    background-color: #3498db;
+    transform: translateY(-3px); 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.grupomaior {
+    margin: 30px;
+}
+
+.conteúdo, .caracteristicas, .fotos, .integrantes, .formulario, .box {
+    margin: 30px 0;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.conteúdo:hover, .caracteristicas:hover, .fotos:hover, .integrantes:hover, .formulario:hover, .pdf:hover, .box:hover {
+    transform: translateY(-5px);
+}
+
+.box h1{
+    text-align: center;
+}
+
+.fotos h1 {
+    text-align: center;
+}
+
+.integrantes h1 {
+    text-align: center;
+}
+
+.formulario h1 {
+    text-align: center;
+}
+
+h1 {
+    color: #2c3e50;
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+h2 {
+    color: #555;
+}
+
+p , .conteúdo p {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.8;
+}
+
+.caracteristicas p , li { 
+    font-size: 1.3rem;
+}
+
+.caracteristicas li {
+    color: #444;
+}
+
+footer p {
+    color: #fff;
+}
+
+.fotos ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.fotos li {
+    flex-basis: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid #cc7f7f;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.fotos li:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.fotos img {
+    width: 40%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.fotos figcaption {
+    font-size: 1.3rem;
+    color: #2c3e50;
+    margin-left: 20px;
+    width: 50%;
+}
+
+.lightbox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+}
+
+.lightbox.active {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.lightbox img {
+    max-width: 80%;
+    max-height: 80%;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Botão de Fechar lightbox */
+.close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+
+@media (max-width: 768px) {
+    .topo {
+        font-size: 1.6rem;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .menunavegação ul {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .menunavegação ul li {
+        margin: 10px 0;
+    }
+
+    .conteúdo, .caracteristicas, .fotos {
+        margin: 20px;
+        padding: 20px;
+    }
+
+    .fotos ul {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fotos li {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .fotos img {
+        width: 80%;
+    }
+
+    .fotos figcaption {
+        font-size: 1.1rem;
+        text-align: center;
+    }
+
+	.conteúdo, .formulario {
+		margin: 20px;
+		padding: 20px;
+	}
+
+	.formulario input, .formulario textarea {
+		font-size: 1rem;
+		background-color: #555;
+	}
+}
+
+@media (max-width: 480px) {
+    .topo {
+        font-size: 1.3rem;
+        padding: 15px;
+    }
+
+    .conteúdo, .caracteristicas, .fotos {
+        padding: 15px;
+    }
+
+    .menunavegação ul li a {
+        font-size: 1.1rem;
+    }
+
+    footer {
+        font-size: 0.9rem;
+    }
+
+	.switch {
+		position: relative;
+		display: inline-block;
+		width: 50px;
+		height: 24px;
+	}
+
+	.switch input {
+		opacity: 0;
+		width: 0;
+		height: 0;
+	}
+
+	.slider {
+		position: absolute;
+		cursor: pointer;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background-color: #ccc;
+		transition: .4s;
+		border-radius: 24px;
+	}
+
+	.slider:before {
+		position: absolute;
+		content: "";
+		height: 18px;
+		width: 18px;
+		left: 4px;
+		bottom: 3px;
+		background-color: white;
+		transition: .4s;
+		border-radius: 50%;
+	}
+
+	input:checked + .slider {
+		background-color: #4CAF50;
+	}
+
+	input:checked + .slider:before {
+		transform: translateX(26px);
+	}
+
+	#label-text {
+		margin-left: 10px;
+		font-size: 16px;
+		font-weight: bold;
+	}
+}
+
+/* Sobre nos */
+
+.conteúdo p, .integrantes p {
+	font-size: 1.3rem;
+	color: #555;
+	line-height: 1.8;
+}
+
+.integrantes ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 0;
+}
+
+.integrantes li {
+    font-size: 1.5rem;
+    color: #555;
+    font-weight: 500;
+    text-align: center;
+    padding: 15px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    width: 150px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.integrantes li:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    background-color: #a67171;
+    color: white;
+}
+
+.integrantes li::before {
+    content: "\1F464";
+    font-size: 2rem;
+    color: #a67171;
+    margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.2rem;
+    }
+
+    li {
+        font-size: 1.2rem;
+        width: 120px;
+    }
+}
+
+
+        /* ProgamaçãoA*/ 
+
+.pdf {
+        text-align: center;
+        margin-top: 20px;
+        margin: 30px 0;
+        padding: 30px;
+        background-color: #fff;
+        border-radius: 12px;
+        box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease;
+}
+
+.pdf embed {
+        width: 100%;
+        max-width: 1000px;
+        height: 600px;
+        border: none;
+}
+
+
+/* Contatos */
+
+.formulario input , .formulario textarea {
+	background-color: #d1c9c9;
+	font-family: 'Roboto', sans-serif;
+	width: 100%;
+	padding: 15px;
+	font-size: 1.2rem;
+	border-radius: 5px; 
+	margin-bottom: 20px;
+	outline: none;
+}
+
+.formulario input[type="submit"] {
+	background-color: #cf8c8c;
+	color: white;
+	font-size: 1.3rem;
+	padding: 15px;
+	border: 2px;
+	cursor: pointer;
+    text-align: center;
+
+  
+}
+
+.formulario input[type="submit"]:hover {
+	background-color: #a67171;
+}
+
+.formulario input[type="radio"] {
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.formulario, .formulario text {
+    background-color: #ffffff;
+    margin: 30px 0;
+    padding: 30px;
+    border-radius: 10px;
+    font-size: 19px;
+    font-family: 'Roboto','sans-serif';
+    border: 2px;
+}

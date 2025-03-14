@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Nós</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="icon" type="image/png" href="Medicine.png"/>
+    <link rel="stylesheet" href="estilospesq.css">
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+
+    <header class="topo"> 
+        <h3>PROJETO MEDICINE CAR</h3> 
+        <img src="Medicine.png" alt="Fundação Bradesco" />
+    </header>    
+
+    <nav class="menunavegação"> 
+        <ul>
+            <li><a href="grupo2.html">Home</a></li>
+            <li><a href="indexforms.html">Características</a></li>
+            <li><a href="Desenvolvimento.html">Desenvolvimento</a></li>
+            <li><a href="ProgamaçãoA.html">Programação Arduino</a></li>
+            <li><a href="Contatos.html">Fale Conosco</a></li>
+        </ul>
+    </nav>
+
+    <main class="grupomaior">
+        <section class="box"> 
+            <h1>Sobre o Grupo</h1>
+            <p>Durante nossa participação no projeto CARRINHO AVG, fomos os primeiros alunos a vivenciar a experiência desse novo modelo do Ensino Médio. Nunca antes os estudantes do ensino secundário haviam se unido para desenvolver um projeto tão grandioso como esse. Ao longo do processo, percebemos que nosso grupo era composto por personalidades distintas, o que gerou muitos altos e baixos, incluindo discussões e desentendimentos. Fomos então divididos em grupos e subgrupos (Maquete, Programação e Documentação), com o objetivo de garantir que ninguém ficasse sobrecarregado com as tarefas propostas nas aulas. Apesar dos desafios e conflitos ao longo do caminho, conseguimos superar as dificuldades e entregar um resultado final muito satisfatório, concluindo o projeto dentro do prazo.</p>
+        </section>
+
+        <section class="integrantes">
+            <h1>Integrantes</h1>
+            <ul>
+                <li>Bianca 2B</li>
+                <li>Brenda 2B</li>
+                <li>Gustavo F. 1B</li>
+                <li>Gustavo 3B</li>
+                <li>Liz 1B</li>
+                <li>Maria 1B</li>
+                <li>Maicon 3B</li>
+                <li>Miguel 1B</li>
+                <li>Micael 1B</li>
+                <li>Pedro 3B</li>
+            </ul>
+        </section>
+        
+
+        <section class="fotos">
+            <h1>Apresentação Projeto</h1>
+                <li onclick="openLightbox('Grupodois.jpg')">
+                    <img src="Grupodois.jpg" alt="Integrantes">
+                </li>
+        </section>
+
+    </main>
+
+    <div class="lightbox" id="lightbox" onclick="closeLightbox()">
+        <span class="close">&times;</span>
+        <img id="lightbox-img" src="" alt="Imagem ampliada">
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Meu Primeiro Projeto. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
