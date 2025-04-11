@@ -34,9 +34,12 @@
             <p>Envie suas dúvidas, sugestões ou qualquer feedback sobre o nosso projeto. Sua opinião é essencial para o aprimoramento contínuo do nosso trabalho!</p>
         </section>
 
+
+        <div class="form-container">
         <section class="formulario">
             <h1>Formulário de Contato</h1>
-            <form action="https://api.sheetmonkey.io/form/nS4RKFAoU5j6VpBgTVpcvK" method="post">
+            <form action="https://api.sheetmonkey.io/form/2ahCJ3LPjZoLkmWL6JUJvv" method="post">
+                <div class="input-container">
                 <label for="Nome">Seu Nome:</label>
                 <input type="text" id="Nome" name="Nome" placeholder="Digite seu nome completo" required>
 
@@ -56,13 +59,15 @@
                 <input type="text" id="Problemas" name="Problemas" placeholder="Relate algum problema" required>
                    
                
-                    <section class="novidades">
-                            <h3>Deseja receber nossas novidades?</h3>
-                        <div class="opcoes">
-                            <button class="btn sim">Sim</button>
-                            <button class="btn nao">Não</button>
-                        </div>
-                    </section>
+
+                    <div class="caixa">
+                        <label for="opcoes" class="label">Deseja receber nossas Novidades?</label>
+                        <select id="opcoes" name="Novidades?"
+                        class="select-box">
+                            <option value="Sim">Sim</option>
+                            <option value="Não">Não</option>
+                        </select>
+                    </div>
   
 
                 
@@ -71,7 +76,9 @@
 
                 <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
                 <input type="submit" value="Enviar">
+                </div>
             </form>
+        </div>
             
 
             
@@ -84,7 +91,7 @@
     </div>
 
     <footer>
-        <p>&copy; 2024 Meu Site. Todos os direitos reservados.</p>
+        <p>&copy;  2025 Meu Site. Todos os direitos reservados.</p>
     </footer>
 
 </body>
